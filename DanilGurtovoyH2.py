@@ -19,17 +19,17 @@ number = input("A three-digit number - ")
 print(int(number[0]) + int(number[1]) + int(number[2]))
 
 # Exercise 6
-side1= int(input("Input first side of triangle - "))
-side2= int(input("Input second side of triangle - "))
-side3= int(input("Input third side of triangle - "))
+side1 = int(input("Input first side of triangle - "))
+side2 = int(input("Input second side of triangle - "))
+side3 = int(input("Input third side of triangle - "))
 p = (side1 + side3 + side2) / 2
-print((p*(p - side1) * (p - side2) * (p - side3))**0.5)
+print((p * (p - side1) * (p - side2) * (p - side3)) ** 0.5)
 
 # Exercise 7
 number7 = input("Please, input your number - ")
 sum = 0
 for i in number7:
-    sum+=int(i)
+    sum += int(i)
 print(sum)
 
 # Exercise 8
