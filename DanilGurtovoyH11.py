@@ -37,7 +37,6 @@ print("Впишіть кого саме ви хочете купити і в я�
       "\n Щоб закінчити - введіть слово 'СТОП'")
 print(product_dict)
 
-
 basket_user = {}
 while True:
     animals, count, cost = map(str, input().split())
